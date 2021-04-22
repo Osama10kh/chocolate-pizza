@@ -1,0 +1,47 @@
+header {
+  margin: 0px 5%;
+}
+
+.headlogo {
+  top: 20px;
+  position: relative;
+}
+
+.logo {
+  float: left;
+  width: 50px;
+}
+.title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-left: 4%;
+}
+
+.title h1 {
+  font-family: "Dancing Script";
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.icon {
+  float: right;
+  position: relative;
+  bottom: 16px;
+}
+
+.icon ul li {
+  display: inline-block;
+  padding: 1px;
+}
+
+.pizza {
+  padding: 4%;
+}
+.pizza h1 {
+  font-family: "Oswald";
+  margin-top: 2%;
+  font-size: 40px;
+  font-weight: bold;
+  color: #252024;
+  padding-left: 5px;
+  text-align: left;
+}
