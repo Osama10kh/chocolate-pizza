@@ -11,19 +11,21 @@ header {
   float: left;
   width: 50px;
 }
-.title {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  padding-left: 4%;
-}
 
+.titleParag {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin: -25px 0 0 2px;
+}
 .title h1 {
   font-family: "Dancing Script";
   font-weight: bold;
-  font-size: 35px;
+  font-size: xx-large;
 }
 
 .icon {
   float: right;
+}
+.icon {
   position: relative;
   bottom: 16px;
 }
@@ -35,6 +37,7 @@ header {
 
 .pizza {
   padding: 4%;
+  margin-left: 20px;
 }
 .pizza h1 {
   font-family: "Oswald";
@@ -44,4 +47,120 @@ header {
   color: #252024;
   padding-left: 5px;
   text-align: left;
+}
+.time {
+  font-size: smaller;
+  color: gray;
+  margin: -15px 0 10px 8px;
+}
+.print {
+  float: right;
+  margin-right: 20px;
+}
+
+.Para {
+  padding-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-size: x-large;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#IMG {
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 90%;
+  object-fit: cover;
+}
+
+.checkbox {
+  background-image: url("./img/list-bg.png");
+  padding: 5% 5%;
+}
+
+.firstix {
+  font-size: 20px;
+  font-weight: bold;
+  width: 50%;
+  display: inline-block;
+}
+.FinalSix {
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+label {
+  color: #000;
+  font-size: 18px;
+}
+
+.line {
+  margin-top: 5%;
+}
+
+.feedback {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.user-image {
+  float: left;
+  margin-right: 8px;
+}
+
+.user-name b {
+  font-size: 25px;
+  padding-left: 11px;
+}
+.user-name h3 {
+  margin-bottom: 8px;
+}
+
+.u_desc {
+  width: 70%;
+}
+
+:checked + label {
+  text-decoration: line-through;
+}
+
+.button {
+  float: right;
+  width: 13%;
+  position: relative;
+  bottom: 40px;
+}
+
+.button a:hover {
+  background-color: #8e0505;
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+  -moz-transition: 0.6s;
+  -ms-transition: 0.6s;
+  -o-transition: 0.6s;
+}
+
+.button a {
+  border: 1px solid #bc7058;
+  text-decoration: none;
+  color: #fff;
+  background-color: #bc7058;
+  padding: 14px;
+}
+
+#footer_logo {
+  position: relative;
+  top: 24px;
+  margin-left: 48%;
+}
+.feedback {
+  padding: 0 5%;
+}
+.copy-rights {
+  text-align: center;
+  top: 16px;
+  position: relative;
+  color: gray;
 }
